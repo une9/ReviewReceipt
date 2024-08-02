@@ -27,7 +27,7 @@ const ReviewDetail = () => {
 
     return (
         <div>
-            <ReviewReceipt props={review} />
+            <ReviewReceipt review={review} />
 
         </div>
     )
